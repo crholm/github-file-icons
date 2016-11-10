@@ -4,8 +4,9 @@
 
 }
 
+//TODO, fix this sometime causes wrong overides
 .github-file-icons::before{
-  @extend .txt-icon;
+  @extend .text-icon;
 }
 
 
@@ -20,10 +21,34 @@
   font-family: octicons, serif;
 }
 
-.txt-icon::before {  @extend .octicons-icons-font;  content: "\e93d";  }
-.md-icon::before {  @extend .octicons-icons-font;  content: "\e968";  }
-.sh-icon::before {  @extend .octicons-icons-font;  content: "\e99d";  }
-
+.binary-icon::before{ @extend  .octicons-icons-font; content: "\e935"; }
+.book-icon::before{ @extend  .octicons-icons-font; content: "\e90c"; }
+.brew-icon::before{ @extend  .octicons-icons-font; content: "\e909"; }
+.checklist-icon::before{ @extend  .octicons-icons-font; content: "\e914"; }
+.code-icon::before{ @extend  .octicons-icons-font; content: "\e91f"; }
+.comment-icon::before{ @extend  .octicons-icons-font; content: "\e920"; }
+.config-icon::before{ @extend  .octicons-icons-font; content: "\e991"; }
+.dashboard-icon::before{ @extend  .octicons-icons-font; content: "\e924"; }
+.database-icon::before{ @extend  .octicons-icons-font; content: "\e925"; }
+.gear-icon::before{ @extend  .octicons-icons-font; content: "\e941"; }
+.git-commit-icon::before{ @extend  .octicons-icons-font; content: "\e946"; }
+.git-merge-icon::before{ @extend  .octicons-icons-font; content: "\e948"; }
+.github-icon::before{ @extend  .octicons-icons-font; content: "\e969"; }
+.graph-icon::before{ @extend  .octicons-icons-font; content: "\e94c"; }
+.image-icon::before{ @extend  .octicons-icons-font; content: "\e938"; }
+.key-icon::before{ @extend  .octicons-icons-font; content: "\e959"; }
+.link-icon::before{ @extend  .octicons-icons-font; content: "\e95d"; }
+.markdown-icon::before{ @extend  .octicons-icons-font; content: "\e968"; }
+.package-icon::before{ @extend  .octicons-icons-font; content: "\e974"; }
+.ruby-icon::before{ @extend  .octicons-icons-font; content: "\e98c"; }
+.secret-icon::before{ @extend  .octicons-icons-font; content: "\e944"; }
+.squirrel-icon::before{ @extend  .octicons-icons-font; content: "\e996"; }
+.tag-icon::before{ @extend  .octicons-icons-font; content: "\e99a"; }
+.terminal-icon::before{ @extend  .octicons-icons-font; content: "\e99d"; }
+.text-icon::before{ @extend  .octicons-icons-font; content: "\e93d"; }
+.video-icon::before{ @extend  .octicons-icons-font; content: "\e928"; }
+.xml-icon::before{ @extend  .octicons-icons-font; content: "\e936"; }
+.zip-icon::before{ @extend  .octicons-icons-font; content: "\e93e"; }
 
 
 .devicons-icon-font { font-family: devicons, serif; }
