@@ -1,0 +1,443 @@
+.github-file-icons{
+  padding-left: 6px !important;
+  font-size: 19px;
+
+}
+
+.github-file-icons::before{
+  @extend .txt-icon;
+}
+
+
+.github-file-icons svg{
+  display: none;
+}
+.github-file-icons img{
+  display: none;
+}
+
+.octicons-icons-font {
+  font-family: octicons, serif;
+}
+
+.txt-icon::before {  @extend .octicons-icons-font;  content: "\e93d";  }
+.md-icon::before {  @extend .octicons-icons-font;  content: "\e968";  }
+.sh-icon::before {  @extend .octicons-icons-font;  content: "\e99d";  }
+
+
+
+.devicons-icon-font { font-family: devicons, serif; }
+
+.asp-icon::before{ @extend .devicons-icon-font; content: "\e67f"; }
+.atom-icon::before{ @extend .devicons-icon-font; content: "\e664"; }
+.bower-icon::before{ @extend .devicons-icon-font; content: "\e64d"; }
+.clojure-icon::before{ @extend .devicons-icon-font; content: "\e668"; }
+.dart-icon::before{ @extend .devicons-icon-font; content: "\e698"; }
+.dlang-icon::before{ @extend .devicons-icon-font; content: "\e6af"; }
+.eclipse-icon::before{ @extend .devicons-icon-font; content: "\e69e"; }
+.erlang-icon::before{ @extend .devicons-icon-font; content: "\e6b1"; }
+.fsharp-icon::before{ @extend .devicons-icon-font; content: "\e6a7"; }
+.heroku-icon::before{ @extend .devicons-icon-font; content: "\e67b"; }
+.laravel-icon::before{ @extend .devicons-icon-font; content: "\e63f"; }
+.node-icon::before{ @extend .devicons-icon-font; content: "\e618"; }
+.pod-icon::before{ @extend .devicons-icon-font; content: "\e669"; }
+.prolog-icon::before{ @extend .devicons-icon-font; content: "\e6a1"; }
+.rails-icon::before{ @extend .devicons-icon-font; content: "\e63b"; }
+.sass-icon::before{ @extend .devicons-icon-font; content: "\e64b"; }
+.swift-icon::before{ @extend .devicons-icon-font; content: "\e655"; }
+.travis-icon::before{ @extend .devicons-icon-font; content: "\e67e"; }
+.unity3d-icon::before{ @extend .devicons-icon-font; content: "\e621"; }
+.vb-icon::before{ @extend .devicons-icon-font; content: "\e60c"; }
+.vim-icon::before{ @extend .devicons-icon-font; content: "\e6c5"; }
+.windows-icon::before{ @extend .devicons-icon-font; content: "\e60f"; }
+.yeoman-icon::before{ @extend .devicons-icon-font; content: "\e67a"; }
+
+
+.icomoon-icon-font {
+  font-family: icomoon, serif;
+}
+
+.grunt-icon::before{ @extend .icomoon-icon-font; content: "\e611"; }
+.gulp-icon::before{ @extend .icomoon-icon-font; content: "\e610"; }
+.mustache-icon::before{ @extend .icomoon-icon-font; content: "\e60f"; }
+
+.fa-icons-font {
+  font-family: FontAwesome, serif;
+}
+
+.android-icon::before{ @extend .fa-icons-font; content: "\f17b"; }
+.audio-icon::before{ @extend .fa-icons-font; content: "\f028"; }
+.bullhorn-icon::before{ @extend .fa-icons-font; content: "\f0a1"; }
+.calc-icon::before{ @extend .fa-icons-font; content: "\f1ec"; }
+.coffee-icon::before{ @extend .fa-icons-font; content: "\f0f4"; }
+.css3-icon::before{ @extend .fa-icons-font; content: "\f13c"; }
+.circle-icon::before{ @extend .fa-icons-font; content: "\f111"; }
+.earth-icon::before{ @extend .fa-icons-font; content: "\f0ac"; }
+.gears-icon::before{ @extend .fa-icons-font; content: "\f085"; }
+.html5-icon::before{ @extend .fa-icons-font; content: "\f13b"; }
+.mobile-icon::before{ @extend .fa-icons-font; content: "\f10b"; }
+.moon-icon::before{ @extend .fa-icons-font; content: "\f186"; }
+.music-icon::before{ @extend .fa-icons-font; content: "\f001"; }
+.recycle-icon::before{ @extend .fa-icons-font; content: "\f1b8"; }
+.rss-icon::before{ @extend .fa-icons-font; content: "\f143"; }
+.smarty-icon::before{ @extend .fa-icons-font; content: "\f0eb"; }
+.sun-icon::before{ @extend .fa-icons-font; content: "\f185"; }
+.toc-icon::before{ @extend .fa-icons-font; content: "\f03a"; }
+.twig-icon::before{ @extend .fa-icons-font; content: "\f1bb"; }
+.twitter-icon::before{ @extend .fa-icons-font; content: "\f099"; }
+
+
+
+.mf-icons-font {
+  font-family: FontMfizz, serif;
+}
+
+.apache-icon::before  { @extend .mf-icons-font; content: "\f102"; }
+.c-icon::before{ @extend .mf-icons-font; content: "\f106"; }
+.cpp-icon::before{ @extend .mf-icons-font; content: "\f10b"; }
+.csharp-icon::before{ @extend .mf-icons-font; content: "\f10c"; }
+.debian-icon::before{ @extend .mf-icons-font; content: "\f111"; }
+.elixir-icon::before{ @extend .mf-icons-font; content: "\f113"; }
+.gnome-icon::before{ @extend .mf-icons-font; content: "\f119"; }
+.h-icon::before{ @extend .mf-icons-font; content: "\f010"; }
+.haskell-icon::before{ @extend .mf-icons-font; content: "\f121"; }
+.java-icon::before{ @extend .mf-icons-font; content: "\f126"; }
+.js-icon::before{ @extend .mf-icons-font; content: "\f129"; }
+.objc-icon::before{ @extend .mf-icons-font; content: "\f13e"; }
+.osx-icon::before{ @extend .mf-icons-font; content: "\f141"; }
+.perl-icon::before{ @extend .mf-icons-font; content: "\f142"; }
+.python-icon::before{ @extend .mf-icons-font; content: "\f14c"; }
+.red-hat-icon::before{ @extend .mf-icons-font; content: "\f14e"; }
+.scala-icon::before{ @extend .mf-icons-font; content: "\f154"; }
+.sql-icon::before{ @extend .mf-icons-font; content: "\f10e"; }
+.svg-icon::before{ @extend .mf-icons-font; content: "\f15c"; }
+.tsql-icon::before{ @extend .mf-icons-font; content: "\f136"; }
+.tt-icon::before{ @extend .mf-icons-font; content: "TT";    }
+
+
+.file-icons-font {
+  font-family: file-icons, serif;
+}
+
+
+//.1c-icon::before{ @extend .file-icons-font; content: "\a5ea";   }
+.abap-icon::before{ @extend .file-icons-font; content: "\e92b";  }
+.access-icon::before{ @extend .file-icons-font; content: "\e9ea";  }
+.ada-icon::before{ @extend .file-icons-font; content: "\e90b";  }
+.ae-icon::before{ @extend .file-icons-font; content: "\e9f3";  }
+.ahk-icon::before{ @extend .file-icons-font; content: "\e932";  }
+.ai-icon::before{ @extend .file-icons-font; content: "\e6b4";  }
+.alloy-icon::before{ @extend .file-icons-font; content: "\e935";  }
+.alpine-icon::before{ @extend .file-icons-font; content: "\e9ff";  }
+.ampl-icon::before{ @extend .file-icons-font; content: "\e94e";    }
+.amx-icon::before{ @extend .file-icons-font; content: "\e99b";   }
+.ant-icon::before{ @extend .file-icons-font; content: "\e93e";   }
+.antlr-icon::before{ @extend .file-icons-font; content: "\e92c";   }
+.api-icon::before{ @extend .file-icons-font; content: "\e92d";  }
+.apl-icon::before{ @extend .file-icons-font; content: "\234b";  }
+.apple-icon::before{ @extend .file-icons-font; content: "\e925";  }
+.appveyor-icon::before{ @extend .file-icons-font; content: "\e923";  }
+.arc-icon::before{ @extend .file-icons-font; content: "\e92f";  }
+.archlinux-icon::before{ @extend .file-icons-font; content: "A";      }
+.arduino-icon::before{ @extend .file-icons-font; content: "\e930";   }
+.as-icon::before{ @extend .file-icons-font; content: "\e92e";  }
+.asciidoc-icon::before{ @extend .file-icons-font; content: "\e918";  }
+.ats-icon::before{ @extend .file-icons-font; content: "\e934";  }
+.audacity-icon::before{ @extend .file-icons-font; content: "\e9f9";  }
+.augeas-icon::before{ @extend .file-icons-font; content: "\e931";  }
+.autoit-icon::before{ @extend .file-icons-font; content: "\e933";  }
+.babel-icon::before{ @extend .file-icons-font; content: "\e91f";   }
+.bibtex-icon::before{ @extend .file-icons-font; content: "\e601";   }
+.blender-icon::before{ @extend .file-icons-font; content: "\e9fa";  }
+.bluespec-icon::before{ @extend .file-icons-font; content: "\e93c";    }
+.boo-icon::before{ @extend .file-icons-font; content: "\e939";  }
+.boot-icon::before{ @extend .file-icons-font; content: "\f103";  }
+.brain-icon::before{ @extend .file-icons-font; content: "\e93a";  }
+.brakeman-icon::before{ @extend .file-icons-font; content: "\e9d6";  }
+.bro-icon::before{ @extend .file-icons-font; content: "\e93b";   }
+.broccoli-icon::before{ @extend .file-icons-font; content: "\e922";  }
+.byond-icon::before{ @extend .file-icons-font; content: "\e962";  }
+.cabal-icon::before{ @extend .file-icons-font; content: "\e9c2";  }
+.cake-icon::before{ @extend .file-icons-font; content: "\e9e3";  }
+.cakefile-icon::before{ @extend .file-icons-font; content: "\e924";  }
+.cakephp-icon::before{ @extend .file-icons-font; content: "\e9d3";  }
+.cc-icon::before{ @extend .file-icons-font; content: "\e9d5";  }
+.ceylon-icon::before{ @extend .file-icons-font; content: "\e94f";  }
+.cf-icon::before{ @extend .file-icons-font; content: "\e929";  }
+.chapel-icon::before{ @extend .file-icons-font; content: "\e950";  }
+.chuck-icon::before{ @extend .file-icons-font; content: "\e943";  }
+.circleci-icon::before{ @extend .file-icons-font; content: "\ea12";   }
+.cirru-icon::before{ @extend .file-icons-font; content: "\e951";   }
+.cl-icon::before{ @extend .file-icons-font; content: "\e972";   }
+.clarion-icon::before{ @extend .file-icons-font; content: "\e952";    }
+.clean-icon::before{ @extend .file-icons-font; content: "\e95b";  }
+.click-icon::before{ @extend .file-icons-font; content: "\e95c";  }
+.clips-icon::before{ @extend .file-icons-font; content: "\e940";  }
+.cljs-icon::before{ @extend .file-icons-font; content: "\f104";  }
+.cmake-icon::before{ @extend .file-icons-font; content: "\e93f";   }
+.composer-icon::before{ @extend .file-icons-font; content: "\e683";  }
+.codecov-icon::before{ @extend .file-icons-font; content: "\2602";   }
+.coq-icon::before{ @extend .file-icons-font; content: "\e95f";   }
+.cp-icon::before{ @extend .file-icons-font; content: "\e942";   }
+.creole-icon::before{ @extend .file-icons-font; content: "\e95e";  }
+.crystal-icon::before{ @extend .file-icons-font; content: "\e902";   }
+.csound-icon::before{ @extend .file-icons-font; content: "\e9f0";  }
+.csscript-icon::before{ @extend .file-icons-font; content: "\e9e2";  }
+.cucumber-icon::before{ @extend .file-icons-font; content: "\f02b";   }
+.cython-icon::before{ @extend .file-icons-font; content: "\e963";  }
+.darcs-icon::before{ @extend .file-icons-font; content: "\e964";  }
+.dbase-icon::before{ @extend .file-icons-font; content: "\e9f1";  }
+.default-icon::before{ @extend .file-icons-font; content: "\1f5cc"; }
+.diff-icon::before{ @extend .file-icons-font; content: "\e960";  }
+.docker-icon::before{ @extend .file-icons-font; content: "\f106";  }
+.doxygen-icon::before{ @extend .file-icons-font; content: "\e928";   }
+.doge-icon::before{ @extend .file-icons-font; content: "\e946";  }
+.dyalog-icon::before{ @extend .file-icons-font; content: "\e90c";   }
+.dylib-icon::before{ @extend .file-icons-font; content: "\ea15";   }
+.e-icon::before{ @extend .file-icons-font; content: "E";      }
+.eagle-icon::before{ @extend .file-icons-font; content: "\e965";  }
+.ec-icon::before{ @extend .file-icons-font; content: "\e9c9";  }
+.ecere-icon::before{ @extend .file-icons-font; content: "\e966";   }
+.editorconfig-icon::before{ @extend .file-icons-font; content: "\ea1b";  }
+.eiffel-icon::before{ @extend .file-icons-font; content: "\e967";  }
+.elm-icon::before{ @extend .file-icons-font; content: "\f102";  }
+.em-icon::before{ @extend .file-icons-font; content: "\e968";   }
+.emacs-icon::before{ @extend .file-icons-font; content: "\e926";  }
+.eq-icon::before{ @extend .file-icons-font; content: "\ea0a";  }
+.eslint-icon::before{ @extend .file-icons-font; content: "\ea0f";   }
+.excel-icon::before{ @extend .file-icons-font; content: "\e9ee";  }
+.fabfile-icon::before{ @extend .file-icons-font; content: "\e94b";  }
+.factor-icon::before{ @extend .file-icons-font; content: "\e96a";   }
+.fancy-icon::before{ @extend .file-icons-font; content: "\e96b";  }
+.fantom-icon::before{ @extend .file-icons-font; content: "\e96f";   }
+.fbx-icon::before{ @extend .file-icons-font; content: "\e9fc";  }
+.ff-icon::before{ @extend .file-icons-font; content: "\fb00";   }
+.flow-icon::before{ @extend .file-icons-font; content: "\e921";   }
+.flux-icon::before{ @extend .file-icons-font; content: "\e969";  }
+.font-icon::before{ @extend .file-icons-font; content: "\e90f";    }
+.fortran-icon::before{ @extend .file-icons-font; content: "\e90a";    }
+.freemarker-icon::before{ @extend .file-icons-font; content: "\e970";   }
+.frege-icon::before{ @extend .file-icons-font; content: "\e96e";   }
+.gams-icon::before{ @extend .file-icons-font; content: "\e973";    }
+.gap-icon::before{ @extend .file-icons-font; content: "\e971";    }
+.gdb-icon::before{ @extend .file-icons-font; content: "\ea08";     }
+.godot-icon::before{ @extend .file-icons-font; content: "\e974";  }
+.genshi-icon::before{ @extend .file-icons-font; content: "\e976";   }
+.gentoo-icon::before{ @extend .file-icons-font; content: "\e96d";   }
+.gf-icon::before{ @extend .file-icons-font; content: "\e978";  }
+.glade-icon::before{ @extend .file-icons-font; content: "\e938";  }
+.glyphs-icon::before{ @extend .file-icons-font; content: "G";       }
+.gml-icon::before{ @extend .file-icons-font; content: "\e975";   }
+.gnu-icon::before{ @extend .file-icons-font; content: "\e679";   }
+.go-icon::before{ @extend .file-icons-font; content: "\e624";}
+.golo-icon::before{ @extend .file-icons-font; content: "\e979";  }
+.gosu-icon::before{ @extend .file-icons-font; content: "\e97a";   }
+.gradle-icon::before{ @extend .file-icons-font; content: "\e903";    }
+.graphql-icon::before{ @extend .file-icons-font; content: "\e97c";  }
+.graphviz-icon::before{ @extend .file-icons-font; content: "\e97d";   }
+.groovy-icon::before{ @extend .file-icons-font; content: "\e904"; }
+.hack-icon::before{ @extend .file-icons-font; content: "\e9ce";  }
+.haml-icon::before{ @extend .file-icons-font; content: "\f15b";   }
+.harbour-icon::before{ @extend .file-icons-font; content: "\e97b";   }
+.hashicorp-icon::before{ @extend .file-icons-font; content: "\e97e";  }
+.haxe-icon::before{ @extend .file-icons-font; content: "\e907";    }
+.hy-icon::before{ @extend .file-icons-font; content: "\e97f";  }
+.idl-icon::before{ @extend .file-icons-font; content: "\e947";   }
+.idris-icon::before{ @extend .file-icons-font; content: "\e983";   }
+.igorpro-icon::before{ @extend .file-icons-font; content: "\e980";   }
+.indesign-icon::before{ @extend .file-icons-font; content: "\e9f4";  }
+.inform7-icon::before{ @extend .file-icons-font; content: "\e984";   }
+.inno-icon::before{ @extend .file-icons-font; content: "\e985";  }
+.io-icon::before{ @extend .file-icons-font; content: "\e981";   }
+.ioke-icon::before{ @extend .file-icons-font; content: "\e982";  }
+.ionic-icon::before{ @extend .file-icons-font; content: "\f14b";  }
+.isabelle-icon::before{ @extend .file-icons-font; content: "\e945";  }
+.j-icon::before{ @extend .file-icons-font; content: "\e937"; }
+.jade-icon::before{ @extend .file-icons-font; content: "\e90d";   }
+.jake-icon::before{ @extend .file-icons-font; content: "\e948";  }
+.jenkins-icon::before{ @extend .file-icons-font; content: "\e667";    }
+.jinja-icon::before{ @extend .file-icons-font; content: "\e944";  }
+.jsonld-icon::before{ @extend .file-icons-font; content: "\e958";   }
+.jsx-icon::before{ @extend .file-icons-font; content: "\f101";  }
+.jsx-icon::before{ @extend .file-icons-font; content: "\e9e6";   }
+.julia-icon::before{ @extend .file-icons-font; content: "\26ec";  }
+.jupyter-icon::before{ @extend .file-icons-font; content: "\e987";   }
+.karma-icon::before{ @extend .file-icons-font; content: "\e9cd";  }
+.keynote-icon::before{ @extend .file-icons-font; content: "\e9e5";  }
+.khronos-icon::before{ @extend .file-icons-font; content: "\e9f8";  }
+.kivy-icon::before{ @extend .file-icons-font; content: "\e901";  }
+.kotlin-icon::before{ @extend .file-icons-font; content: "\e989";  }
+.krl-icon::before{ @extend .file-icons-font; content: "\e988";  }
+.labview-icon::before{ @extend .file-icons-font; content: "\e98a";  }
+.lasso-icon::before{ @extend .file-icons-font; content: "\e98c";    }
+.lean-icon::before{ @extend .file-icons-font; content: "L";        }
+.lein-icon::before{ @extend .file-icons-font; content: "\f105";  }
+.lfe-icon::before{ @extend .file-icons-font; content: "\e94c";  }
+.lightwave-icon::before{ @extend .file-icons-font; content: "\e9fb";   }
+.lisp-icon::before{ @extend .file-icons-font; content: "\e908";   }
+.llvm-icon::before{ @extend .file-icons-font; content: "\e91d";  }
+.logtalk-icon::before{ @extend .file-icons-font; content: "\e98d";   }
+.lookml-icon::before{ @extend .file-icons-font; content: "\e98e";   }
+.ls-icon::before{ @extend .file-icons-font; content: "\e914";  }
+.lsl-icon::before{ @extend .file-icons-font; content: "\e98b";   }
+.lua-icon::before{ @extend .file-icons-font; content: "\e91b";  }
+.mako-icon::before{ @extend .file-icons-font; content: "\e98f";  }
+.mapbox-icon::before{ @extend .file-icons-font; content: "\e941"; }
+.marko-icon::before{ @extend .file-icons-font; content: "\e920"; }
+.mathematica-icon::before{ @extend .file-icons-font; content: "\e990";  }
+.matlab-icon::before{ @extend .file-icons-font; content: "\e991";  }
+.max-icon::before{ @extend .file-icons-font; content: "\e993";  }
+.maxscript-icon::before{ @extend .file-icons-font; content: "\e900";  }
+.maya-icon::before{ @extend .file-icons-font; content: "\e9f6";  }
+.manpage-icon::before{ @extend .file-icons-font; content: "\e936";   }
+.mediawiki-icon::before{ @extend .file-icons-font; content: "\e954";  }
+.mercury-icon::before{ @extend .file-icons-font; content: "\e994";  }
+.metal-icon::before{ @extend .file-icons-font; content: "M";       }
+.meteor-icon::before{ @extend .file-icons-font; content: "\e6a5";    }
+.minecraft-icon::before{ @extend .file-icons-font; content: "\e9dc";  }
+.mirah-icon::before{ @extend .file-icons-font; content: "\e995";  }
+.mocha-icon::before{ @extend .file-icons-font; content: "\26fe";  }
+.model-icon::before{ @extend .file-icons-font; content: "\e9e8";  }
+.modula2-icon::before{ @extend .file-icons-font; content: "\e996";  }
+.monkey-icon::before{ @extend .file-icons-font; content: "\e997"; }
+.mruby-icon::before{ @extend .file-icons-font; content: "\ea18";  }
+.mupad-icon::before{ @extend .file-icons-font; content: "\e9ca";   }
+.nant-icon::before{ @extend .file-icons-font; content: "\e9e1";   }
+.neko-icon::before{ @extend .file-icons-font; content: "\ea05";  }
+.netlogo-icon::before{ @extend .file-icons-font; content: "\e99c";    }
+.newrelic-icon::before{ @extend .file-icons-font; content: "\e9d7";   }
+.nginx-icon::before{ @extend .file-icons-font; content:"\f146b";  }
+.nib-icon::before{ @extend .file-icons-font; content: "\2712";  }
+.nimrod-icon::before{ @extend .file-icons-font; content: "\e998";  }
+.nit-icon::before{ @extend .file-icons-font; content: "\e999";  }
+.nix-icon::before{ @extend .file-icons-font; content: "\e99a";   }
+.nmap-icon::before{ @extend .file-icons-font; content: "\e94d";    }
+.npm-icon::before{ @extend .file-icons-font; content: "\e91c";   }
+.nsis-icon::before{ @extend .file-icons-font; content: "\ea1e";   }
+.numpy-icon::before{ @extend .file-icons-font; content: "\e99d";  }
+.nuget-icon::before{ @extend .file-icons-font; content: "\e9d9";  }
+.nunjucks-icon::before{ @extend .file-icons-font; content: "\e953";  }
+.nvidia-icon::before{ @extend .file-icons-font; content: "\e95d";  }
+.objj-icon::before{ @extend .file-icons-font; content: "\e99e";  }
+.ocaml-icon::before{ @extend .file-icons-font; content: "\e91a";  }
+.onenote-icon::before{ @extend .file-icons-font; content: "\e9eb";  }
+.ooc-icon::before{ @extend .file-icons-font; content: "\e9cb";  }
+.opa-icon::before{ @extend .file-icons-font; content: "\2601";  }
+.opencl-icon::before{ @extend .file-icons-font; content: "\e99f";  }
+.openoffice-icon::before{ @extend .file-icons-font; content: "\e9e4";  }
+.org-icon::before{ @extend .file-icons-font; content: "\e917";   }
+.owl-icon::before{ @extend .file-icons-font; content: "\e957";  }
+.ox-icon::before{ @extend .file-icons-font; content: "\e9a1";    }
+.oxygene-icon::before{ @extend .file-icons-font; content: "\e9bf";  }
+.oz-icon::before{ @extend .file-icons-font; content: "\e9be";  }
+.pan-icon::before{ @extend .file-icons-font; content: "\e9bd";  }
+.papyrus-icon::before{ @extend .file-icons-font; content: "\e9bc";   }
+.parrot-icon::before{ @extend .file-icons-font; content: "\e9bb";   }
+.pascal-icon::before{ @extend .file-icons-font; content: "\e92a";  }
+.patch-icon::before{ @extend .file-icons-font; content: "\e961";  }
+.pawn-icon::before{ @extend .file-icons-font; content: "\265f";  }
+.perl6-icon::before{ @extend .file-icons-font; content: "\e96c";  }
+.phalcon-icon::before{ @extend .file-icons-font; content: "\e94a";  }
+.php-icon::before{ @extend .file-icons-font; content: "\f147";   }
+.pickle-icon::before{ @extend .file-icons-font; content: "\e9c4";  }
+.pike-icon::before{ @extend .file-icons-font; content: "\e9b9";    }
+.pogo-icon::before{ @extend .file-icons-font; content: "\e9b8";    }
+.pony-icon::before{ @extend .file-icons-font; content: "\e9b7";   }
+.pointwise-icon::before{ @extend .file-icons-font; content: "\e977";  }
+.postcss-icon::before{ @extend .file-icons-font; content: "\e910";  }
+.postscript-icon::before{ @extend .file-icons-font; content: "\e955";   }
+.povray-icon::before{ @extend .file-icons-font; content: "P";       }
+.powerbuilder-icon::before{ @extend .file-icons-font; content: "\ea14";  }
+.powerpoint-icon::before{ @extend .file-icons-font; content: "\e9ec";  }
+.powershell-icon::before{ @extend .file-icons-font; content: "\e9da";  }
+.premiere-icon::before{ @extend .file-icons-font; content: "\e9f5";  }
+.processing-icon::before{ @extend .file-icons-font; content: "\e9a0";  }
+.progress-icon::before{ @extend .file-icons-font; content: "\e9c0";  }
+.propeller-icon::before{ @extend .file-icons-font; content: "\e9b5";  }
+.protractor-icon::before{ @extend .file-icons-font; content: "\e9de";   }
+.psd-icon::before{ @extend .file-icons-font; content: "\e6b8";  }
+.pug-icon::before{ @extend .file-icons-font; content: "\ea13";   }
+.pug-alt-icon::before{ @extend .file-icons-font; content: "\e9d0";   }
+.puppet-icon::before{ @extend .file-icons-font; content: "\f0c3";   }
+.purebasic-icon::before{ @extend .file-icons-font; content: "\01b5";   }
+.purescript-icon::before{ @extend .file-icons-font; content: "\e9b2";   }
+.r-icon::before{ @extend .file-icons-font; content: "\e905";   }
+.racket-icon::before{ @extend .file-icons-font; content: "\e9b1";   }
+.raml-icon::before{ @extend .file-icons-font; content: "\e913";  }
+.rdoc-icon::before{ @extend .file-icons-font; content: "\e9b0";  }
+.react-icon::before{ @extend .file-icons-font; content: "\f100";   }
+.reason-icon::before{ @extend .file-icons-font; content: "\ea1d";   }
+.rebol-icon::before{ @extend .file-icons-font; content: "\e9ae";  }
+.red-icon::before{ @extend .file-icons-font; content: "\e9ad";   }
+.regex-icon::before{ @extend .file-icons-font; content: "*";        }
+.rexx-icon::before{ @extend .file-icons-font; content: "\ea16";   }
+.riot-icon::before{ @extend .file-icons-font; content: "\e919";  }
+.robot-icon::before{ @extend .file-icons-font; content: "\e9ac";  }
+.rollup-icon::before{ @extend .file-icons-font; content: "\e9fd";    }
+.rst-icon::before{ @extend .file-icons-font; content: "\e9cc";   }
+.sage-icon::before{ @extend .file-icons-font; content: "\e9ab";    }
+.saltstack-icon::before{ @extend .file-icons-font; content: "\e915";  }
+.sas-icon::before{ @extend .file-icons-font; content: "\e95a";  }
+.sbt-icon::before{ @extend .file-icons-font; content: "\e9d2";  }
+.scd-icon::before{ @extend .file-icons-font; content: "\e9a2";  }
+.scad-icon::before{ @extend .file-icons-font; content: "\e911";  }
+.scheme-icon::before{ @extend .file-icons-font; content: "\03bb";  }
+.scilab-icon::before{ @extend .file-icons-font; content: "\e9a9";   }
+.scrutinizer-icon::before{ @extend .file-icons-font; content: "\e9d4";  }
+.self-icon::before{ @extend .file-icons-font; content: "\e9a8";  }
+.sf-icon::before{ @extend .file-icons-font; content: "\e9db";  }
+.shen-icon::before{ @extend .file-icons-font; content: "\e9a7";  }
+.shopify-icon::before{ @extend .file-icons-font; content: "\e9cf";  }
+.sigils-icon::before{ @extend .file-icons-font; content: "\1f764";   }
+.sketch-icon::before{ @extend .file-icons-font; content: "\e927";  }
+.slash-icon::before{ @extend .file-icons-font; content: "\e9a6";  }
+.snyk-icon::before{ @extend .file-icons-font; content: "\ea1c";  }
+.sparql-icon::before{ @extend .file-icons-font; content: "\e959";  }
+.sqf-icon::before{ @extend .file-icons-font; content: "\e9a5";   }
+.sqlite-icon::before{ @extend .file-icons-font; content: "\e9dd";   }
+.stan-icon::before{ @extend .file-icons-font; content: "\e9a4";  }
+.stata-icon::before{ @extend .file-icons-font; content: "\e9a3";  }
+.storyist-icon::before{ @extend .file-icons-font; content: "\e9ef";  }
+.strings-icon::before{ @extend .file-icons-font; content: "\e9e0";  }
+.stylelint-icon::before{ @extend .file-icons-font; content: "\e93d";  }
+.stylus-icon::before{ @extend .file-icons-font; content: "s";        }
+.sublime-icon::before{ @extend .file-icons-font; content: "\e986";  }
+.svn-icon::before{ @extend .file-icons-font; content: "\ea17";   }
+.sysverilog-icon::before{ @extend .file-icons-font; content: "\e9c3";  }
+.tcl-icon::before{ @extend .file-icons-font; content: "\e956";    }
+.tern-icon::before{ @extend .file-icons-font; content: "\1f54a"; }
+.terraform-icon::before{ @extend .file-icons-font; content: "\e916";  }
+.tex-icon::before{ @extend .file-icons-font; content: "\e600";   }
+.textile-icon::before{ @extend .file-icons-font; content: "t";      }
+.textmate-icon::before{ @extend .file-icons-font; content: "\2122";  }
+.thor-icon::before{ @extend .file-icons-font; content: "\e9d8";  }
+.ts-icon::before{ @extend .file-icons-font; content: "\2a6" ;   }
+.tsx-icon::before{ @extend .file-icons-font; content: "\e9e7";   }
+.turing-icon::before{ @extend .file-icons-font; content: "\e9b6";  }
+.txl-icon::before{ @extend .file-icons-font; content: "\e9c1";  }
+.typedoc-icon::before{ @extend .file-icons-font; content: "\e9fe";  }
+.typings-icon::before{ @extend .file-icons-font; content: "\e9df";  }
+.uno-icon::before{ @extend .file-icons-font; content: "\e9b3";  }
+.unreal-icon::before{ @extend .file-icons-font; content: "u";      }
+.urweb-icon::before{ @extend .file-icons-font; content: "\e9ba";  }
+.webpack-icon::before{ @extend .file-icons-font; content: "\e91e";   }
+.wercker-icon::before{ @extend .file-icons-font; content: "\EA19";   }
+.word-icon::before{ @extend .file-icons-font; content: "\e9ed";  }
+.vagrant-icon::before{ @extend .file-icons-font; content: "V";      }
+.varnish-icon::before{ @extend .file-icons-font; content: "\e9b4";  }
+.verilog-icon::before{ @extend .file-icons-font; content: "\e949";   }
+.vhdl-icon::before{ @extend .file-icons-font; content: "\e9aa";  }
+.vue-icon::before{ @extend .file-icons-font; content: "\e906";   }
+.x10-icon::before{ @extend .file-icons-font; content: "\2169";  }
+.xmos-icon::before{ @extend .file-icons-font; content: "X";       }
+.xojo-icon::before{ @extend .file-icons-font; content: "\e9af";  }
+.xpages-icon::before{ @extend .file-icons-font; content: "\e9c5";   }
+.xtend-icon::before{ @extend .file-icons-font; content: "\e9c6";  }
+.yang-icon::before{ @extend .file-icons-font; content: "\262f";  }
+.yarn-icon::before{ @extend .file-icons-font; content: "\ea1a";  }
+.zbrush-icon::before{ @extend .file-icons-font; content: "\e9f2";  }
+.zephir-icon::before{ @extend .file-icons-font; content: "\e9c7";   }
+.zimpl-icon::before{ @extend .file-icons-font; content: "\e9c8";   }
+
+
+

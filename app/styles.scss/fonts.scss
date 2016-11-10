@@ -1,0 +1,40 @@
+@font-face {
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  src: url("chrome-extension://__MSG_@@extension_id__/fonts/fontawesome.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: FontMfizz;
+  src: url("chrome-extension://__MSG_@@extension_id__/fonts/mfizz.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: icomoon;
+  src: url("chrome-extension://__MSG_@@extension_id__/fonts/icomoon.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: devicons;
+  src: url("chrome-extension://__MSG_@@extension_id__/fonts/devicons.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: file-icons;
+  src: url("chrome-extension://__MSG_@@extension_id__/fonts/file-icons-v1.7.24.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: octicons;
+  src: url("chrome-extension://__MSG_@@extension_id__/fonts/octicons.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
