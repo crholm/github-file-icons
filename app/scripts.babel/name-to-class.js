@@ -7,6 +7,7 @@ var fileNamesToClass = {
   'nginx.conf': 'nginx',
   '.babelrc': 'babel',
   '.bowerrc': 'bower',
+  'bowerfile': 'bower',
   'Vagrantfile': 'vagrant',
   'docker-compose.extra.yml': 'docker',
   'docker-compose.yml': 'docker',
