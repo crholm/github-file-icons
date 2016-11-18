@@ -13,7 +13,11 @@ var fileIcons = [
     extensions: ['babel.js']
   },
   { icon: 'npm',
-    files:['package.json'],
+    files:['package.json', '.npmignore'],
+    extensions: []
+  },
+  { icon: 'brew',
+    files:['brewfile'],
     extensions: []
   },
   { icon: 'nginx',
@@ -25,8 +29,7 @@ var fileIcons = [
     extensions: []
   },
   { icon: 'docker',
-    files:['docker-compose.extra.yml', 'docker-compose.yml', '.dockerignore',
-           '.dockerignore', 'dockerfile', 'dockerfile.extra', 'docker-sync.yml'],
+    files:['docker-compose.extra.yml', 'docker-compose.yml', '.dockerignore', '.dockerignore', 'dockerfile', 'dockerfile.extra', 'docker-sync.yml'],
     extensions: []
   },
   { icon: 'gulp',
@@ -109,7 +112,7 @@ var fileIcons = [
   },
   {
     icon: 'c',
-    files:[],
+    files:['.clang-format'],
     extensions: ['c', 'h']
   },
   {
@@ -124,9 +127,44 @@ var fileIcons = [
   },
   {
     icon: 'js',
-    files:[],
+    files:['.eslintignore', '.eslintcache'],
     extensions: ['js', 'es6', 'js.erb', 'js.flow']
   },
+  {
+    icon: 'terminal',
+    files:['.bashrc'],
+    extensions: ['sh', 'fish', 'zsh']
+  },
+  {
+    icon: 'bibtex',
+    files:[],
+    extensions: ['bib', 'bst']
+  },
+  {
+    icon: 'csharp',
+    files:[],
+    extensions: ['cs', 'csx']
+  },
+  {
+    icon: 'python',
+    files:[],
+    extensions: ['py']
+  },
+  {
+    icon: 'ruby',
+    files:[],
+    extensions: ['rb', 'gem']
+  },
+  {
+    icon: 'database',
+    files:[],
+    extensions: ['sqlite', 'sqlite3', 'db', 'db3']
+  },
+  {
+    icon: 'sql',
+    files:[],
+    extensions: ['dsql']
+  }
 
 ];
 
@@ -149,6 +187,7 @@ for(var i = 0; i < fileIcons.length; i++){
 
 
 function getIconClass(filename){
+
   filename = filename.toLowerCase().trim();
 
   var clazz = fileNamesToClass[filename];

@@ -13,12 +13,10 @@ var addClasses = () => {
 
   var hasIcons = document.querySelector('.github-file-icons');
   if(hasIcons){
-    console.log('returning');
     return;
   }
 
   var rows = document.querySelectorAll('.file-wrap table tr.js-navigation-item');
-  console.log('rows', rows);
 
 
   for(var i = 0; i < rows.length; i++){
