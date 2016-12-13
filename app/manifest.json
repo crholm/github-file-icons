@@ -5,6 +5,7 @@
   "description": "A chrome extention that adds file icons to github repos when browsing them",
   "icons": {
     "16": "images/icon-16.png",
+    "32": "images/icon-32.png",
     "128": "images/icon-128.png"
   },
   "background": {
@@ -14,7 +15,9 @@
   },
   "page_action": {
     "default_icon": {
-      "128": "images/github-draw-logo.png"
+      "16": "images/icon-16.png",
+      "32": "images/icon-32.png",
+      "128": "images/icon-128.png"
     },
     "default_title": "github file icons"
   },
