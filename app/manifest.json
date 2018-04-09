@@ -1,6 +1,6 @@
 {
   "name": "github file icons",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "manifest_version": 2,
   "description": "A chrome extention that adds file icons to github repos when browsing them",
   "icons": {
