@@ -17,15 +17,14 @@ var addClasses = () => {
   }
 
   var rows = document.querySelectorAll('.file-wrap table tr.js-navigation-item');
-
-
   for(var i = 0; i < rows.length; i++){
     var icon = rows[i].querySelector('.icon');
     if(!icon){
       continue;
     }
-    var badIcon = icon.querySelector('.octicon-file-text');
-    if(!badIcon) {
+
+    var isDir = icon.querySelector('.octicon-file-directory');
+    if(isDir) {
       continue;
     }
 
